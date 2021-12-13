@@ -1,0 +1,181 @@
+html{
+	scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Redacted+Script:wght@300&family=Ubuntu:wght@300&display=swap');
+
+@media screen and (max-width: 720px) {
+  img{
+    display: none;
+  }
+  h3{
+    font-size: medium;
+  }
+  h1{
+    font-size: x-large;
+  }
+  h2{
+    font-size: medium;
+  }
+  p{
+    font-size: smaller;
+  }
+  .btn-1{
+    margin: auto;
+  }
+  .button1{
+    width: 10px;
+  }
+  .contact{
+    width: 100px;
+  }
+}
+
+body{
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+body::before,
+body::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+body::before{
+  clip-path: circle(15% at left 5%);
+  opacity: 0.4;
+  background: linear-gradient(135deg, #00b7ff 10%, #01fff2 100%);
+  /* position: fixed; */
+}
+body::after{
+  opacity: 0.4;
+  clip-path: circle(15% at right 100%);
+  background: linear-gradient(135deg, #00b7ff 10%, #01fff2 100%);
+}
+.container-l{
+  background: rgb(255, 244, 244);
+  height: 100vh;
+}
+.nav-link{
+  margin-right: 10px;
+  z-index: 12;
+  backdrop-filter: blur(5.5px);
+  border-radius: 20px;
+  width: 90px;
+  transition: 0.5s;
+}
+.nav-link:hover{
+  /* border: 1px solid black; */
+  box-shadow: 3px 5px 10px 0 rgba(0,0,0,0.3);
+ 	transform: translate3D(-20px);
+}
+a{
+  text-align: center;
+}
+img{
+  float: right;
+  margin-top: 90px;
+  margin-right: 50px;
+}
+.body-h{
+  text-align: left;
+  margin-top: 150px;
+  /* margin-left: 150px; */
+  float: right;
+}
+.btn{
+  background: linear-gradient(135deg, #00b7ff 10%, #00d1c7 100%);
+  font-weight: bold;
+  color: white;
+  transition: 0.5s;
+  margin-right: 20px;
+}
+.btn:hover{
+  color: white;
+  box-shadow: 3px 5px 10px 0 rgba(0,0,0,0.3);
+ 	transform: translate3D(-20px);
+}
+.title2-f{
+  color: #00b7ff;
+}
+.link-me{
+  text-decoration: none;
+  cursor: pointer;
+  color: #00b7ff;
+}
+.link-me:hover{
+  text-decoration: underline;
+  color: #00b7ff;
+}
+.about-c{
+  text-align: center;
+}
+.btn-1{
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  font-weight: bold;
+  transition: 0.5s;
+
+}
+.btn-1:hover{
+  background: #00b7ff;
+}
+h1{
+  font-weight: bold;
+}
+.project{
+  display: grid;
+}
+.card{
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  transition: 0.5s;
+  height: auto;
+}
+.card:hover{
+  box-shadow: 3px 5px 10px 0 rgba(0,0,0,0.3);
+ 	transform: translate3D(-20px);
+}
+.contact{
+  margin: auto;
+  width: 400px;
+}
+.button1{
+  width: 400px;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:  #00abff; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+.navbar{
+  z-index: 12;
+  backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.1);
+}
+.container-car{
+  display: flex;
+}
+a btn{
+  background: white;
+}
